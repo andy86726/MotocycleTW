@@ -17,7 +17,8 @@ namespace MotocycleTW.Models
         public string s_block { get; set; }
         [Display(Name ="地址")]
         public string s_address { get; set; }
-
+        [Display(Name ="商店圖片")]
+        public string s_picture { get; set; }
         public virtual ICollection<Order> Order { get; set; }
     }
 }

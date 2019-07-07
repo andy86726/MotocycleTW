@@ -144,17 +144,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201907071240551_first.cs" />
-    <Compile Include="Migrations\201907071240551_first.Designer.cs">
-      <DependentUpon>201907071240551_first.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201907071242007_second.cs" />
-    <Compile Include="Migrations\201907071242007_second.Designer.cs">
-      <DependentUpon>201907071242007_second.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201907071251299_THIRD.cs" />
-    <Compile Include="Migrations\201907071251299_THIRD.Designer.cs">
-      <DependentUpon>201907071251299_THIRD.cs</DependentUpon>
+    <Compile Include="Migrations\201907071308259_change_model.cs" />
+    <Compile Include="Migrations\201907071308259_change_model.Designer.cs">
+      <DependentUpon>201907071308259_change_model.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Battery_store.cs" />
@@ -234,14 +226,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201907071240551_first.resx">
-      <DependentUpon>201907071240551_first.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201907071242007_second.resx">
-      <DependentUpon>201907071242007_second.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201907071251299_THIRD.resx">
-      <DependentUpon>201907071251299_THIRD.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201907071308259_change_model.resx">
+      <DependentUpon>201907071308259_change_model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

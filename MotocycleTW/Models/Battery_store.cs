@@ -9,12 +9,14 @@ namespace MotocycleTW.Models
     public class Battery_store
     {
         [Key]
-        public int s_id { get; set; }
+        public int bs_id { get; set; }
         [Display(Name = "店名")]
         public string s_name { get; set; }
         [Display(Name = "區域")]
-        public string s_block { get; set; }
+        public string bs_block { get; set; }
         [Display(Name = "地址")]
-        public string s_address { get; set; }
+        public string bs_address { get; set; }
+        [Display(Name ="交換站圖片")]
+        public string bs_picture { get; set; }
     }
 }
