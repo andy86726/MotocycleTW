@@ -152,7 +152,12 @@
     <Compile Include="Migrations\201907071242007_second.Designer.cs">
       <DependentUpon>201907071242007_second.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907071251299_THIRD.cs" />
+    <Compile Include="Migrations\201907071251299_THIRD.Designer.cs">
+      <DependentUpon>201907071251299_THIRD.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Battery_store.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Classify.cs" />
     <Compile Include="Models\Delivery_way.cs" />
@@ -234,6 +239,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907071242007_second.resx">
       <DependentUpon>201907071242007_second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907071251299_THIRD.resx">
+      <DependentUpon>201907071251299_THIRD.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

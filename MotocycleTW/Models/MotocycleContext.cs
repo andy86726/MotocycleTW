@@ -34,6 +34,8 @@ namespace MotocycleTW.Models
         public System.Data.Entity.DbSet<Product_Picture> Product_Pictures { get; set; }
         public System.Data.Entity.DbSet<Shopping_Cart> Shopping_Carts { get; set; }
         public System.Data.Entity.DbSet<Delivery_way> Delivery_Ways { get; set; }
+        public System.Data.Entity.DbSet<Battery_store> Battery_Stores { get; set; }
+
 
     }
 }
