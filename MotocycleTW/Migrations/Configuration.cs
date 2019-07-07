@@ -1,5 +1,6 @@
 namespace MotocycleTW.Migrations
 {
+    using MotocycleTW.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -26,6 +27,15 @@ namespace MotocycleTW.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+            context.Categories.AddOrUpdate(
+                p => p.c_id,
+                new Category { c_id = 1, c_name = "Battery" },
+                new Category { c_id = 2, c_name = "Electric_motor_car" },
+                new Category { c_id = 3, c_name = "Helment" },
+                new Category { c_id = 4, c_name = "Mat" },
+                new Category { c_id = 5, c_name = "Rear_Carrier" },
+                new Category { c_id = 6, c_name = "Fender" }
+                );
         }
     }
 }

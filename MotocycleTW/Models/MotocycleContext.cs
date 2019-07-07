@@ -22,7 +22,7 @@ namespace MotocycleTW.Models
 
         public System.Data.Entity.DbSet<Category> Categories { get; set; }
         public System.Data.Entity.DbSet<Classify> Classifies { get; set; }
-        public System.Data.Entity.DbSet<Delive_Way> Delive_Ways { get; set; }
+        public System.Data.Entity.DbSet<Store> Stores { get; set; }
         public System.Data.Entity.DbSet<Discount> Discounts { get; set; }
         public System.Data.Entity.DbSet<Member> Members { get; set; }
         public System.Data.Entity.DbSet<Order> Orders { get; set; }
@@ -33,5 +33,7 @@ namespace MotocycleTW.Models
         public System.Data.Entity.DbSet<Product_Feature> Product_Features { get; set; }
         public System.Data.Entity.DbSet<Product_Picture> Product_Pictures { get; set; }
         public System.Data.Entity.DbSet<Shopping_Cart> Shopping_Carts { get; set; }
+        public System.Data.Entity.DbSet<Delivery_way> Delivery_Ways { get; set; }
+
     }
 }

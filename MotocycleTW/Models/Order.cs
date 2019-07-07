@@ -13,6 +13,8 @@ namespace MotocycleTW.Models
         public int o_id { get; set; }
         public DateTime o_date { get; set; }
         public string o_receiver { get; set; }
+        public int o_cellphonenumber { get; set; }
+        public string o_email { get; set; }
         public string o_address { get; set; }
         public DateTime o_delivedate { get; set; }
         public string o_status { get; set; }
@@ -20,7 +22,7 @@ namespace MotocycleTW.Models
         public int dw_id { get; set; }
         public int m_id { get; set; }
 
-        public virtual Delive_Way Delive_Way { get; set; }
+        public virtual Store Delive_Way { get; set; }
         public virtual Member Member { get; set; }
         public virtual ICollection<Order_Detail> Order_Detail { get; set; }
         public virtual Payment Payment { get; set; }

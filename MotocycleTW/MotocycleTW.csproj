@@ -144,14 +144,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201907070923551_first.cs" />
-    <Compile Include="Migrations\201907070923551_first.Designer.cs">
-      <DependentUpon>201907070923551_first.cs</DependentUpon>
+    <Compile Include="Migrations\201907071240551_first.cs" />
+    <Compile Include="Migrations\201907071240551_first.Designer.cs">
+      <DependentUpon>201907071240551_first.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907071242007_second.cs" />
+    <Compile Include="Migrations\201907071242007_second.Designer.cs">
+      <DependentUpon>201907071242007_second.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Classify.cs" />
-    <Compile Include="Models\Delive_Way.cs" />
+    <Compile Include="Models\Delivery_way.cs" />
+    <Compile Include="Models\Store.cs" />
     <Compile Include="Models\Discount.cs" />
     <Compile Include="Models\Member.cs" />
     <Compile Include="Models\MotocycleContext.cs" />
@@ -198,8 +203,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\CRUD\Create.cshtml" />
     <Content Include="Views\CRUD\Delete.cshtml" />
@@ -209,6 +212,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Assets\images\" />
+    <Folder Include="Assets\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -224,8 +229,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201907070923551_first.resx">
-      <DependentUpon>201907070923551_first.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201907071240551_first.resx">
+      <DependentUpon>201907071240551_first.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907071242007_second.resx">
+      <DependentUpon>201907071242007_second.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

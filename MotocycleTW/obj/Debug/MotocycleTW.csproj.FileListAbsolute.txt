@@ -96,3 +96,4 @@ D:\上課\Building school\Mvc企業專題\MotocycleTW\MotocycleTW\bin\EntityFram
 D:\上課\Building school\Mvc企業專題\MotocycleTW\MotocycleTW\bin\EntityFramework.SqlServer.xml
 D:\上課\Building school\Mvc企業專題\MotocycleTW\MotocycleTW\obj\Debug\MotocycleTW.Migrations.first.resources
 D:\上課\Building school\Mvc企業專題\MotocycleTW\MotocycleTW\obj\Debug\MotocycleTW.csproj.GenerateResource.cache
+D:\上課\Building school\Mvc企業專題\MotocycleTW\MotocycleTW\obj\Debug\MotocycleTW.Migrations.second.resources
